@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-	max-width: 390px;
+	max-width: 350px;
 }
 
 
@@ -20,7 +20,7 @@ body {
 
 .img {
 	display: block;
-	width: 370px;
+	width: 250px;
 	padding: 10px;
 }
 
@@ -37,7 +37,7 @@ body {
 	padding: 7px 0px;
 
 	background: rgba(136, 136, 136, 0.815);
-	border-radius: 10px;
+	border-radius: 5px;
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 200;
