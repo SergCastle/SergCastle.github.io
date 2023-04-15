@@ -7,3 +7,7 @@ buy.addEventListener("click", function(){
     document.getElementById("main").style.display = "none";
     document.getElementById("form").style.display = "block";
 });
+
+order.addEventListener("click", function(){
+    tg.close();
+});
