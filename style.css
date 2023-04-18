@@ -4,7 +4,7 @@ body {
     font-size: 18px;
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
-    background-repeat: no-repeat;
+    font-family: 'Montserrat';
 }
 
 .container {
@@ -12,12 +12,41 @@ body {
 }
 
 .back {
-    background: rgb(145, 195, 63);
     padding: 10px;
     border-radius: 5px;
     position: relative;
     width: 250px;
     height: 390px;
+    top: 5px;
     margin-left: auto;
     margin-right: auto;
+    outline: 4px solid #000;
+}
+
+.title {
+    background: rgb(212, 227, 134);
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    position: absolute;
+    width: 250px;
+    height: 15px;
+    top: 0px;
+    left: 0px;
+}
+
+.hero_name {
+    color: #fff;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    -webkit-text-stroke: .5px black;
+    font-size: 22px;
+}
+
+.hero_class {
+    color: #000;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    font-size: 10px;
 }
