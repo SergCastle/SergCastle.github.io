@@ -34,6 +34,16 @@ body {
     left: 0px;
 }
 
+.title2 {
+    background: rgb(212, 227, 134);
+    padding: 10px;
+    position: absolute;
+    width: 250px;
+    height: 10px;
+    top: 185px;
+    left: 0px;
+}
+
 .hero_name {
     color: #fff;
     position: absolute;
@@ -47,6 +57,14 @@ body {
     color: #000;
     position: absolute;
     top: 40px;
+    left: 10px;
+    font-size: 10px;
+}
+
+.hero_skill {
+    color: #000;
+    position: absolute;
+    top: 195px;
     left: 10px;
     font-size: 10px;
 }
