@@ -8,82 +8,15 @@ body {
 }
 
 .container {
-    max-width: 230px;
-    max-height: 390px;
-    
-}
-
-.btn {
-    display: inline-block;
-    padding: 10px 20 px;
-    border: none;
-    background: #007E3E;
-    border-radius: 10px
-    color: #fff
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.btn:hover {
-    lightgreen;
-}
-
-.title {
-    background: rgb(145, 195, 63);
-    padding: 10px;
-    border-radius: 5px;
-    opacity: .7;
-    position: absolute;
-    top: 5px;
-    height: 7px;
-    width: 210px;
-}
-
-.title2 {
-    background: rgb(145, 195, 63);
-    padding: 10px;
-    border-radius: 5px;
-    opacity: .7;
-    position: absolute;
-    top: 150px;
-    height: 7px;
-    width: 210px;
-}
-
-.hero_name {
-    text-shadow: black .5px .5px 0, black -.5px -.5px 0,
-    black -.5px .5px 0, black .5px -.5px 0;
-    color: #fff;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    height: 7px;
-    font-weight: bold;
-}
-
-.hero_class {
-    color: #000;
-    position: absolute;
-    top: 35px;
-    left: 10px;
-    height: 7px;
-    font-size: 10pt;
-}
-
-.hero_stats {
-    color: #000;
-    position: absolute;
-    top: 155px;
-    left: 10px;
-    height: 7px;
-    font-size: 10pt;
+    max-width: 390px;
 }
 
 .back {
+    background: rgb(145, 195, 63);
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
+    opacity: .7;
     position: relative;
-    top: 0px;
-    height: 290px;
-    border: 5px solid black;
+    width: 250px;
+    height: 390px;
 }
