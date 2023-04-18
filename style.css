@@ -13,13 +13,39 @@ body {
 }
 
 .grid {
-    border: 5px solid black;
     display: grid;
-    grid-template-columns: repeat(10, 39px);
-    grid-template-rows: repeat(20, 36px);
+    grid-template-columns: 10px 5px repeat(12, 1fr) 5px 10px;
+    grid-template-rows: 5px 5px repeat(20, 25px) 5px 5px;
 }
 
-.grid > * {
-    background-color: #ffbf94;
-    margin: 1px;
+.oblast-1 {
+    background: black;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 15;
+}
+
+.oblast-2 {
+    background: black;
+    grid-row-start: 2;
+    grid-row-end: 24;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.oblast-3 {
+    background: black;
+    grid-row-start: 23;
+    grid-row-end: 23;
+    grid-column-start: 2;
+    grid-column-end: 15;
+}
+
+.oblast-4 {
+    background: black;
+    grid-row-start: 2;
+    grid-row-end: 24;
+    grid-column-start: 15;
+    grid-column-end: 15;
 }
