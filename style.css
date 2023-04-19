@@ -14,7 +14,7 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 15px 5px 170px 18px repeat(8, 4px 15px) 4px 5px 10px;
+    grid-template-columns: 15px 5px 134px 18px repeat(8, 4px 15px) 4px 5px 10px;
     grid-template-rows: 5px 5px 20px 139px 25px repeat(11, 2px 2px 15px) 3px 5px 10px 30px 10px 5px;
 }
 
