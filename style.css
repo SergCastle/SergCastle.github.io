@@ -14,8 +14,8 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 25px 5px repeat(12, 1fr) 5px 25px;
-    grid-template-rows: 5px 5px 30px repeat(17, 23px) 5px 10px 35px 10px 5px;
+    grid-template-columns: 20px 5px 170px 18px repeat(8, 4px 15px) 4px 5px 20px;
+    grid-template-rows: 5px 5px 20px 139px 25px repeat(11, 2px 2px 15px) 3px 5px 10px 30px 10px 5px;
 }
 
 .oblast-1 {
@@ -23,39 +23,39 @@ body {
     grid-row-start: 2;
     grid-row-end: 3;
     grid-column-start: 2;
-    grid-column-end: 15;
+    grid-column-end: 23;
 }
 
 .oblast-2 {
     background: black;
     grid-row-start: 2;
-    grid-row-end: 22;
+    grid-row-end: 41;
     grid-column-start: 2;
     grid-column-end: 2;
 }
 
 .oblast-3 {
     background: black;
-    grid-row-start: 21;
-    grid-row-end: 21;
-    grid-column-start: 3;
-    grid-column-end: 15;
+    grid-row-start: 40;
+    grid-row-end: 41;
+    grid-column-start: 2;
+    grid-column-end: 23;
 }
 
 .oblast-4 {
     background: black;
     grid-row-start: 2;
-    grid-row-end: 22;
-    grid-column-start: 15;
-    grid-column-end: 15;
+    grid-row-end: 41;
+    grid-column-start: 22;
+    grid-column-end: 22;
 }
 
 .oblast-5 {
     background: green;
-    grid-row-start: 23;
-    grid-row-end: 23;
+    grid-row-start: 7;
+    grid-row-end: 9;
     grid-column-start: 3;
-    grid-column-end: 15;
+    grid-column-end: 5;
     text-align: center;
 }
 
@@ -64,19 +64,20 @@ body {
     grid-row-start: 3;
     grid-row-end: 4;
     grid-column-start: 3;
-    grid-column-end: 15;
+    grid-column-end: 5;
     padding-left: 10px;
     padding-top: 3px;
 }
 
 .oblast-7 {
     background: rgb(212, 227, 134);
-    grid-row-start: 11;
-    grid-row-end: 12;
+    grid-row-start: 25;
+    grid-row-end: 28;
     grid-column-start: 3;
-    grid-column-end: 15;
+    grid-column-end: 51;
     padding-left: 10px;
     padding-top: 2px;
+    font-size: 12px;
 }
 
 .oblast-5::before, .oblast-6::before, .oblast-7::before {
