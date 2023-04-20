@@ -10,6 +10,7 @@ body {
 .container {
     max-width: 390px;
     max-height: 650px;
+    margin: auto;
 }
 
 .grid {
