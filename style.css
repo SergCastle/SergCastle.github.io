@@ -8,14 +8,14 @@ body {
 }
 
 .container {
-    max-width: 390px;
+    max-width: 340px;
     max-height: 650px;
     margin: auto;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 20px 5px 158px 30px repeat(8, 4px 15px) 5px 20px;
+    grid-template-columns: 20px 5px 123px 15px repeat(8, 4px 15px) 5px 20px;
     grid-template-rows: 5px 5px 20px 139px 25px repeat(11, 2px 2px 15px) 3px 5px 10px 30px 10px 5px;
 }
 
